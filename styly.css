@@ -98,7 +98,7 @@
 
 
 header{
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     border-bottom: 2px solid #aeaeae;
     width: 100%;

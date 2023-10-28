@@ -274,4 +274,6 @@
 // console.log([] == [])
 // console.log(1 == 1)
 
-console.log("deploy")
+console.log("deploy");
+
+console.log("changes");
