@@ -1,0 +1,144 @@
+.card {
+    width: 300px;
+    border: 2px solid #aeaeae;
+    margin-bottom: 20px;
+}
+.card:hover {
+    background: #edde89;
+    transform: rotate(45deg);
+
+    transition: 2s;
+}
+
+.card img{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto 20px;
+}
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.age {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.age span {
+    font-size: 18px;
+    font-weight: 700;
+}
+.location {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+#demo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn_img{
+    border: none;
+    background-color: transparent;
+}
+
+.btn_img_bg{
+    background-image: url("https://images.pexels.com/photos/16369764/pexels-photo-16369764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    width: 120px;
+    height: 200px;
+    object-fit: contain;
+    background-position: 200px 200px;
+}
+
+.link_btn{
+    display: inline-flex;
+    color: #fff;
+    background: #028d12;
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+
+}
+
+.link_btn:hover{
+    opacity: .9;
+    color: #fff;
+}
+
+.link_btn_updated{
+    display: block;
+    position: relative;
+    width: 250px;
+    height: 60px;
+}
+.btn_bg_img{
+    position: absolute;
+    top: -30px;
+    left: -22px;
+    z-index: 1;
+}
+
+.btn_text{
+    position: absolute;
+    z-index: 2;
+    color: #000;
+    top: 17px;
+    left: 28px;
+}
+
+
+header{
+    position: fixed;
+    display: flex;
+    border-bottom: 2px solid #aeaeae;
+    width: 100%;
+    z-index: 100;
+    background: #fff;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+}
+footer{
+    /* position: fixed; */
+    display: flex;
+    border-top: 2px solid #aeaeae;
+    width: 100%;
+    z-index: 100;
+    background: #fff;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    bottom: 0;
+}
+
+
+@media (max-width:1200px){
+    body{
+        background: #aeaeae;
+    }
+}
+@media (max-width:991px){
+    body{
+        background: #028d12;
+    }
+}
+@media (max-width:767px){
+    body{
+        background: red;
+    }
+}
+@media (max-width:567px){
+    body{
+        background: #edde89;
+    }
+}
